@@ -1,0 +1,52 @@
+.formContainer {
+    width: 100%;
+    margin-top: 2%;
+    border: 1px solid var(--neutral-grey-light);
+    border-radius: 6px;
+    background-color: var(--neutral-white);
+    padding: 3%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    width: 100%;
+    border: 1px solid var(--neutral-grey-light);
+    border-radius: 6px;
+    background-color: var(--neutral-white);
+    font-size: 14px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.cancelButton {
+    flex: 0.45;
+    border: 1px solid var(--blue-accent);
+    border-radius: 6px;
+    background-color: var(--neutral-white);
+    padding: 1.5% 0;
+    color: var(--blue-accent);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.saveButton {
+    flex: 0.45;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--blue-accent);
+    padding: 1.5% 0;
+    color: var(--neutral-white);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.disabledButton {
+    background-color: var(--blue-secondary);
+    cursor: not-allowed;
+}

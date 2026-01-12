@@ -1,0 +1,151 @@
+export default {
+    "calculatorTitle": "Kalkulator",
+    "goToSettings": "Ustawienia",
+    "settings": "Ustawienia",
+    "totalWeightLabel": "Całkowita waga",
+    "numberOfServingsLabel": "Liczba porcji",
+    "enterServingsLabel": "Wprowadź porcje",
+    "enterTotalWeight": "Wprowadź całkowitą wagę",
+    "enterTotalAmount": "Wprowadź całkowitą kwotę",
+    "save": "Zapisz",
+    "saveAndReturn": "Zapisz i wróć",
+    "resetToDefaults": "Przywróć ustawienia domyślne",
+    "enterNumberOfServings": "Wprowadź liczbę porcji",
+    "back": "Powrót",
+    "adjustElectrolyteBaseValues": "Dostosuj podstawowe wartości elektrolitów",
+    "settingsPage": {
+        "desc1": "🔬 Te domyślne proporcje opierają się na badaniach naukowych, aby zaspokoić ogólne potrzeby związane z nawodnieniem i elektrolitami.",
+        "desc2": "👩‍🔬 Dostosuj te wartości do swoich preferencji lub specyficznych wymagań.",
+        "desc3": "⚠️ Aby uzyskać optymalną równowagę, zalecamy trzymanie się ustawień domyślnych.",
+        "depletionIndexLabel": "Wskaźnik wyczerpania",
+    },
+    "ingredients": {
+        "tableSalt": "Sól kuchenna",
+        "seaSalt": "Sól morska",
+        "himalayanSalt": "Sól himalajska",
+        "pinkSalt": "Różowa sól",
+        "potassiumChloride": "Chlorek potasu",
+        "potassiumBicarbonate": "Wodorowęglan potasu",
+        "potassiumCitrate": "Cytrynian potasu",
+        "magnesiumOxide": "Tlenek magnezu",
+        "magnesiumCitrate": "Cytrynian magnezu",
+        "magnesiumBisglycinate": "Bisglicynian magnezu",
+        "magnesiumMalate": "Jabczan magnezu",
+    },
+    "elements": {
+        "sodium": "Sód",
+        "potassium": "Potas",
+        "magnesium": "Magnez"
+    },
+    "intro": {
+        "startHereMessage": "Nowy w suplementacji elektrolitów?",
+        "startButtonText": "Zacznij tutaj",
+        "title": "Wprowadzenie",
+        "section1": {
+            "title": "Czym są elektrolity?",
+            "desc1": "Elektrolity to minerały w twoim ciele, które przenoszą ładunek elektryczny 🔋 po rozpuszczeniu w wodzie 💧.",
+            "desc2": "Kluczowe pierwiastki chemiczne – sód, potas, magnez i wapń – wspierają:",
+            "fluidBalance": "• 💧 Równowagę płynów",
+            "muscleContractions": "• 💪 Skurcze mięśni",
+            "nerveImpulses": "• ⚡ Impulsy nerwowe",
+            "brainFunction": "• 🧠 Funkcje mózgu",
+            "boneHealth": "• 🦴 Zdrowie kości",
+            "desc3": "Wapń jest również ważny, jednak zwykle łatwiej go dostarczyć poprzez codzienną dietę.",
+            "desc4": "Ta aplikacja koncentruje się na sodzie, potasie i magnezie, ponieważ są one często tracone wraz z potem i są kluczowe dla codziennych potrzeb większości ludzi."
+        },
+        "section2": {
+            "title": "Dlaczego warto suplementować elektrolity?",
+            "desc1": "Możesz suplementować elektrolity, jeśli:",
+            "intenseExercise": "• 🏀 Uprawiasz intensywne ćwiczenia lub sport",
+            "hotEnvironments": "• ⛏️ Pracujesz w gorących lub fizycznie wymagających warunkach",
+            "fastingOrKeto": "• 🧘 Stosujesz dietę niskowęglowodanową/keto lub praktykujesz post",
+            "deficiencySigns": "• 🆘 Doświadczasz skurczów mięśni, zmęczenia lub innych objawów niedoboru",
+            "desc2": "Zapewniając zrównoważone spożycie sodu, potasu i magnezu, możesz lepiej się nawadniać, wspierać zdrowe poziomy energii i zmniejszać skurcze lub bóle głowy.",
+            "depletionIndex": {
+                "title": "Czym jest wskaźnik wyczerpania?",
+                "intro": "ElectroLyfe dostosowuje równowagę elektrolitową za pomocą wskaźnika wyczerpania – osobistego „miernika stresu elektrolitowego” w skali od 0 do 100.",
+                "desc": "To wartość pokazująca, ile sodu, potasu i magnezu traci twój organizm w zależności od codziennego obciążenia.",
+                "0": "0 – minimalne obciążenie",
+                "at0": "Prowadzisz siedzący tryb życia, odżywiasz się zbilansowanie (warzywa, umiarkowana ilość soli), mało się pocisz, nie pościsz ani nie ćwiczysz intensywnie. Twoje ciało traci niewielką ilość elektrolitów, więc potrzebujesz tylko podstawowych ilości (np. zalecenia WHO: około 2000 mg sodu, 3500 mg potasu, 350 mg magnezu dziennie).",
+                "100": "100 – wysokie obciążenie",
+                "at100": "Gdy obficie się pocisz (np. z powodu upału lub dużego wysiłku), pościsz przez kilka dni, stosujesz dietę niskowęglowodanową lub masz stres i brak snu, organizm szybko traci elektrolity. W takim przypadku możesz potrzebować nawet 5500 mg sodu i obniżenia potasu do około 1000 mg, aby utrzymać równowagę i uniknąć dyskomfortu.",
+            },
+        },
+        "section3": {
+            "title": "Jak korzystać z ElectroLyfe",
+            "intro": "ElectroLyfe pomaga stworzyć spersonalizowaną mieszankę elektrolitów, aby skutecznie nawodnić się i wspierać funkcje mięśni, mózgu, kości i nerwów.",
+            "stepsTitle": "Oto krok po kroku:",
+            "step1": {
+                "title": "Krok 1: Wybierz swój cel",
+                "option1": "• 🍦 Liczba porcji",
+                "option2": "• ⚖️ Całkowita waga",
+                "desc": "Zdecyduj, czy chcesz przygotować określoną liczbę porcji, czy osiągnąć docelową wagę mieszanki."
+            },
+            "step2": {
+                "title": "Krok 2: Wybierz składniki",
+                "intro": "Domyślne sugestie:",
+                "sodium": "• 🧂 Sól różowa (sód)",
+                "potassium": "• 🍌 Chlorek potasu",
+                "magnesium": "• 🥬 Magnez bisglicynian",
+                "desc": "Możesz wybrać lub dodać inne opcje (np. sól morska, cytrynian magnezu, itp.)."
+            },
+            "step3": {
+                "title": "Krok 3: Ustaw wskaźnik wyczerpania",
+                "desc": "Użyj suwaka, aby wybrać wartość od 0 do 100 na podstawie swojego stylu życia i poziomu obciążenia.",
+            },
+            "step4": {
+                "title": "Krok 4: Wygeneruj swój przepis",
+                "desc": "Aplikacja obliczy, ile każdego składnika potrzebujesz, aby stworzyć zrównoważoną mieszankę elektrolitów.",
+            },
+            "step5": {
+                "title": "Krok 5: Zważ i połącz",
+                "step1": "• ⚖️ Odważ każdy składnik za pomocą precyzyjnej wagi.",
+                "step2": "• 🫙 Połącz je w czystym, suchym pojemniku.",
+                "step3": "• 🗄️ Przechowuj mieszankę w chłodnym i ciemnym miejscu.",
+            },
+            "step6": {
+                "title": "Krok 6: Czas na nawodnienie",
+                "step1": "• 🥄 Weź pojedynczą porcję (~3 g, dostosuj do smaku)",
+                "step2": "• 💧 Wymieszaj z ~½–1 litrem wody (więcej wody, jeśli wolisz łagodniejszy smak)",
+                "step3": "• 🍊 Dodaj aromat (opcjonalnie)",
+                "step4": "• 🧃 Wymieszaj lub wstrząśnij",
+                "step5": "• 😎 Popijaj przez cały dzień",
+                "note": {
+                    "part1": "Uwaga: Wartość 3 g to tylko punkt odniesienia.",
+                    "part2": "Jeśli potrzebujesz/wolisz nieco bardziej słony lub łagodniejszy smak, dostosuj ilość w butelce.",
+                    "part3": "Zdrowe organizmy są dość dobre w regulacji poziomów elektrolitów, więc trochę więcej lub mniej w jednej porcji zwykle nie stanowi problemu—szczególnie jeśli sód, potas i magnez są zrównoważone.",
+                    "part4": "Słuchaj sygnałów swojego ciała, nawadniaj się i skonsultuj się z lekarzem, jeśli masz konkretne obawy lub schorzenia."
+                },
+            },
+        },
+        "section4": {
+            "title": "Kiedy i gdzie tego używać",
+            "morning": "⏰ Rano, aby uzupełnić nocne straty",
+            "midMorning": "🥨 W połowie poranka jako zamiennik przekąski lub w okolicach treningu, aby uzupełnić straty potu",
+            "hotEnvironments": "⛏️ Pracownicy na zewnątrz (dekarze, ogrodnicy, itp.) mogą skorzystać z regularnego spożycia w gorącej pogodzie",
+            "storage": "🗄️ Przechowuj swoją mieszankę w solidnym pojemniku lub woreczkach dla wygody w podróży"
+        },
+        "section5": {
+            "title": "Gdzie kupić składniki",
+            "intro": "Potrzebujesz tylko kilku rzeczy, aby zacząć:",
+            "scale": "• ⚖️ Niezawodna waga kuchenna",
+            "sodiumSource": "• 🧂 Źródło sodu (np. sól kuchenna, sól morska)",
+            "potassiumSource": "• 🍌 Źródło potasu",
+            "magnesiumSource": "• 🥬 Źródło magnezu",
+            "containers": "• 🗃️ Pojemniki lub słoiki do przechowywania",
+            "flavorings": "• 🌱 Opcjonalne aromaty (np. krople bez cukru)",
+            "desc": "Możesz znaleźć je w większości sklepów spożywczych lub sklepów internetowych, co daje pełną kontrolę nad czystością i kosztami.",
+            "outro": "To wszystko! Z odrobiną wiedzy i kilku prostych składników możesz stworzyć własną, doskonale zrównoważoną mieszankę elektrolitów na treningi, pracowite dni lub okresy postu.",
+        }
+    },
+    "addIngredient": {
+        "addNewIngredient": "Dodaj nowy składnik",
+        "addNewIngredientTitle": "Dodaj nowy składnik",
+        "ingredientNameLabel": "Nazwa składnika",
+        "ingredientNamePlaceholder": "Wpisz nazwę składnika",
+        "percentageLabel": "Procent (%)",
+        "percentagePlaceholder": "Wpisz procent (0 do 100)",
+        "cancel": "Anuluj",
+        "save": "Zapisz składnik"
+    }
+};

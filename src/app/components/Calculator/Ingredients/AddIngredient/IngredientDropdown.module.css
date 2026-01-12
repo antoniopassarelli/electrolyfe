@@ -1,0 +1,13 @@
+.container {
+    flex: 2;
+}
+
+.dropdown {
+    width: 100%;
+    border: 1px solid var(--neutral-grey-light);
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: var(--neutral-white);
+    color: var(--neutral-grey-darkest);
+    margin-bottom: 2%;
+}

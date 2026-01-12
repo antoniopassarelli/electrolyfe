@@ -1,0 +1,84 @@
+:root {
+  --blue-primary: #2C6795;
+  --blue-secondary: #789FBF;
+  --blue-tertiary: #2A5A7E;
+  --blue-accent: #5277A4;
+  --blue-dark: #244E6D;
+  --blue-dark-2: #013759;
+
+  --blue-bright-1: #2686E9;
+  --blue-bright-2: #1C79E0;
+  --blue-bright-3: #1C71DC;
+  --blue-bright-4: #148ED0;
+  --blue-bright-5: #0f5780;
+  --blue-bright-6: #30cbea;
+
+  --neutral-black: #000000;
+  --neutral-white: #FFFFFF;
+  --neutral-grey-light: #D3D3D3;
+  --neutral-grey-dark: #A9A9A9;
+  --neutral-grey-darker: #757474;
+  --neutral-grey-darkest: #454545;
+
+  --pink-bright: #FF69B4;
+  --green-bright: #32CD32;
+  --orange-bright: #FFA500;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.footer-wrapper {
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 0;
+}
+
+.calculatorColumn {
+  flex: 1;
+}
+
+.settingsColumn {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.infoColumn {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.columnTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #5277A4;
+}

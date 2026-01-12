@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue-bright-5);
+}
+
+.image {
+    aspect-ratio: 1;
+}
+
+.backButton {
+    margin-right: 5%;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--blue-dark);
+}
+
+.titleContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--neutral-grey-light);
+}
+
+.rightContainer {
+    display: flex;
+}
+
+.rightContainer button {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+    font-size: 18px;
+}

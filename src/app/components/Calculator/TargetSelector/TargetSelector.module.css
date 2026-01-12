@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    gap: 3%;
+}
+
+.button {
+    flex: 1;
+    padding: 2%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.activeButton {
+    background-color: var(--blue-bright-5);
+}
+
+.inactiveButton {
+    background-color: var(--neutral-grey-light);
+}
+
+.buttonText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.activeText {
+    color: var(--neutral-white);
+}
+
+.inactiveText {
+    color: var(--neutral-grey-darker);
+}

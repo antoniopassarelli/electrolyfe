@@ -1,0 +1,52 @@
+.wrapper {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.folderTab {
+    align-self: flex-start;
+    background-color: var(--blue-accent);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 1% 4%;
+}
+
+.folderTabText {
+    color: var(--neutral-white);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card {
+    align-self: stretch;
+    border: 1px solid var(--neutral-grey-light);
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    background-color: var(--neutral-white);
+    padding: 3%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bottomCardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.percentageContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.quantityContainer {
+    display: flex;
+    align-items: flex-end;
+}

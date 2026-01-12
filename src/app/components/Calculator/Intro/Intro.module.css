@@ -1,0 +1,13 @@
+.scrollContainer {
+    border-radius: 13px;
+    padding-bottom: 3%;
+    margin: 2%;
+    overflow-y: auto;
+}
+
+.homeButton {
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

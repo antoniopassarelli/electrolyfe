@@ -1,0 +1,151 @@
+export default {
+    "calculatorTitle": "Hesap Makinesi",
+    "goToSettings": "Ayarlar",
+    "settings": "Ayarlar",
+    "totalWeightLabel": "Toplam Ağırlık",
+    "numberOfServingsLabel": "Porsiyon Sayısı",
+    "enterServingsLabel": "Porsiyonları girin",
+    "enterTotalWeight": "Toplam ağırlığı girin",
+    "enterTotalAmount": "Toplam tutarı girin",
+    "save": "Kaydet",
+    "saveAndReturn": "Kaydet ve Geri Dön",
+    "resetToDefaults": "Varsayılanlara sıfırla",
+    "enterNumberOfServings": "Porsiyon sayısını girin",
+    "back": "Geri",
+    "adjustElectrolyteBaseValues": "Elektrolit temel değerlerini ayarlayın",
+    "settingsPage": {
+        "desc1": "🔬 Bu varsayılan oranlar, genel hidrasyon ve elektrolit ihtiyaçlarını karşılamak için bilimsel araştırmalara dayanmaktadır.",
+        "desc2": "👩‍🔬 Bu değerleri tercihlerinize veya özel gereksinimlerinize uygun şekilde ayarlayın.",
+        "desc3": "⚠️ En iyi denge için varsayılan ayarları kullanmanızı öneririz.",
+        "depletionIndexLabel": "Tükenme İndeksi",
+    },
+    "ingredients": {
+        "tableSalt": "Sofra tuzu",
+        "seaSalt": "Deniz tuzu",
+        "himalayanSalt": "Himalaya tuzu",
+        "pinkSalt": "Pembe tuz",
+        "potassiumChloride": "Potasyum klorür",
+        "potassiumBicarbonate": "Potasyum bikarbonat",
+        "potassiumCitrate": "Potasyum sitrat",
+        "magnesiumOxide": "Magnezyum oksit",
+        "magnesiumCitrate": "Magnezyum sitrat",
+        "magnesiumBisglycinate": "Magnezyum bisglisinat",
+        "magnesiumMalate": "Magnezyum malat",
+    },
+    "elements": {
+        "sodium": "Sodyum",
+        "potassium": "Potasyum",
+        "magnesium": "Magnezyum"
+    },
+    "intro": {
+        "startHereMessage": "Elektrolit takviyesi konusunda yeni misiniz?",
+        "startButtonText": "Buradan Başlayın",
+        "title": "Tanıtım",
+        "section1": {
+            "title": "Elektrolitler Nedir?",
+            "desc1": "Elektrolitler, suya çözüldüklerinde vücudunuzda elektrik yükü taşıyan minerallerdir 🔋💧.",
+            "desc2": "Ana kimyasal elementler – sodyum, potasyum, magnezyum ve kalsiyum – şu işlevlere yardımcı olur:",
+            "fluidBalance": "• 💧 Sıvı dengesi",
+            "muscleContractions": "• 💪 Kas kasılmaları",
+            "nerveImpulses": "• ⚡ Sinir iletileri",
+            "brainFunction": "• 🧠 Beyin fonksiyonu",
+            "boneHealth": "• 🦴 Kemik sağlığı",
+            "desc3": "Kalsiyum da önemlidir; ancak genellikle günlük besinlerden daha kolay elde edilebilir.",
+            "desc4": "Bu uygulama, genellikle terleme yoluyla kaybedilen ve çoğu insanın günlük ihtiyaçları için önemli olan sodyum, potasyum ve magnezyuma odaklanır."
+        },
+        "section2": {
+            "title": "Neden Elektrolit Takviyesi?",
+            "desc1": "Şu durumlarda elektrolit takviyesi yapabilirsiniz:",
+            "intenseExercise": "• 🏀 Yoğun egzersiz veya spor yapıyorsanız",
+            "hotEnvironments": "• ⛏️ Sıcak veya fiziksel olarak zorlayıcı ortamlarda çalışıyorsanız",
+            "fastingOrKeto": "• 🧘 Oruç tutuyor veya düşük karbonhidrat/keto diyetleri uyguluyorsanız",
+            "deficiencySigns": "• 🆘 Kas krampları, yorgunluk veya diğer eksiklik belirtileri yaşıyorsanız",
+            "desc2": "Sodyum, potasyum ve magnezyumu dengeli bir şekilde alarak daha iyi bir hidrasyon sağlayabilir, enerji seviyelerinizi destekleyebilir ve krampları veya baş ağrılarını azaltabilirsiniz.",
+            "depletionIndex": {
+                "title": "Tükenme İndeksi nedir?",
+                "intro": "ElectroLyfe, elektrolit dengenizi kişisel bir \"elektrolit stres göstergesi\" olan Tükenme İndeksi sayesinde ayarlar — bu, 0 ile 100 arasında bir ölçektir.",
+                "desc": "Bu, günlük yaşamınızdaki stres, terleme, beslenme ve fiziksel aktiviteye bağlı olarak vücudunuzun ne kadar sodyum, potasyum ve magnezyum kaybettiğini gösteren bir puanlama sistemidir.",
+                "0": "0 — minimum stres",
+                "at0": "Oturduğunuz bir işiniz varsa, sebzeler içeren dengeli ve orta tuzlu bir diyet uyguluyorsanız, çok terlemiyor ve oruç ya da yoğun egzersiz yapmıyorsanız, elektrolit kaybınız çok azdır. Bu durumda yalnızca temel düzeyde (örneğin WHO’ya göre: ~2000 mg sodyum, 3500 mg potasyum, 350 mg magnezyum/gün) takviye yeterlidir.",
+                "100": "100 — yüksek talep",
+                "at100": "Aşırı sıcak, yoğun fiziksel aktivite, birkaç günlük oruç, düşük karbonhidrat diyeti, stres veya kötü uyku gibi durumlar elektrolit kaybınızı artırır. Böyle durumlarda, dengede kalmak ve rahatsızlıkları önlemek için sodyum alımınızı 5500 mg’a kadar çıkarmanız, potasyumu ise 1000 mg’a kadar düşürmeniz gerekebilir.",
+            },
+        },
+        "section3": {
+            "title": "ElectroLyfe Nasıl Kullanılır?",
+            "intro": "ElectroLyfe, elektrolitlerinizi kişiselleştirilmiş bir şekilde harmanlamanıza yardımcı olarak etkili bir şekilde susuzluğunuzu giderir ve kas, beyin, kemik ve sinir fonksiyonlarınızı destekler.",
+            "stepsTitle": "İşte adım adım bir rehber:",
+            "step1": {
+                "title": "Adım 1: Hedef Türünüzü Seçin",
+                "option1": "• 🍦 Porsiyon sayısı",
+                "option2": "• ⚖️ Toplam ağırlık",
+                "desc": "Belirli bir porsiyon miktarı üretmeniz mi yoksa belirli bir toplam karışım ağırlığına mı ulaşmanız gerektiğine karar verin."
+            },
+            "step2": {
+                "title": "Adım 2: Malzemelerinizi Seçin",
+                "intro": "Varsayılan öneriler:",
+                "sodium": "• 🧂 Pembe tuz (sodyum)",
+                "potassium": "• 🍌 Potasyum klorür",
+                "magnesium": "• 🥬 Magnezyum Bisglisinat",
+                "desc": "Gerekirse alternatifler seçebilir veya ekleyebilirsiniz (örneğin, deniz tuzu, magnezyum sitrat vb.)."
+            },
+            "step3": {
+                "title": "Adım 3: Tükenme İndeksinizi Ayarlayın",
+                "desc": "Yaşam tarzınıza ve günlük yükünüze göre 0 ile 100 arasında bir değer seçmek için kaydırıcıyı kullanın.",
+            },
+            "step4": {
+                "title": "Adım 4: Tarifinizi Oluşturun",
+                "desc": "Uygulama, dengeli bir elektrolit karışımı için her bir bileşenden ne kadar gerektiğini hesaplar.",
+            },
+            "step5": {
+                "title": "Adım 5: Ölçün ve Karıştırın",
+                "step1": "• ⚖️ Her bir bileşeni hassas bir mutfak terazisi ile tartın.",
+                "step2": "• 🫙 Hepsini temiz ve kuru bir kapta birleştirin.",
+                "step3": "• 🗄️ Karışımı serin ve karanlık bir yerde saklayın.",
+            },
+            "step6": {
+                "title": "Adım 6: Hidrate Olma Zamanı",
+                "step1": "• 🥄 Karışımınızdan bir porsiyon alın (~3 g, damak tadınıza göre ayarlayabilirsiniz)",
+                "step2": "• 💧 ~½–1 litre su ile karıştırın (daha hafif tat için daha fazla su ekleyin)",
+                "step3": "• 🍊 Tatlandırıcı ekleyin (isteğe bağlı)",
+                "step4": "• 🧃 Karıştırın veya çalkalayın",
+                "step5": "• 😎 Gün boyunca yudumlayarak tüketin",
+                "note": {
+                    "part1": "Not: 3 g sadece başlangıç için önerilen miktardır.",
+                    "part2": "Eğer daha tuzlu veya daha hafif bir tat tercih ediyorsanız, şişedeki miktarı dilediğiniz gibi ayarlayabilirsiniz.",
+                    "part3": "Sağlıklı bedenler elektrolit seviyelerini etkili şekilde düzenleyebilir, bu nedenle bir porsiyonda küçük farklar genellikle sorun oluşturmaz — özellikle sodyum, potasyum ve magnezyum dengedeyse.",
+                    "part4": "Vücudunuzun sinyallerine kulak verin, yeterince su için ve belirli sağlık durumlarınız varsa bir sağlık uzmanına danışın."
+                },
+            },
+        },
+        "section4": {
+            "title": "Ne Zaman ve Nerede Kullanılır?",
+            "morning": "⏰ Gece boyunca kaybedilen sıvıyı yenilemek için sabah ilk iş",
+            "midMorning": "🥨 Sabah ortası atıştırmalık yerine veya egzersiz sırasında ter kayıplarını telafi etmek için",
+            "hotEnvironments": "⛏️ Açık hava çalışanları (örneğin, çatı ustaları, bahçıvanlar) sıcak havalarda düzenli alımdan faydalanabilir",
+            "storage": "🗄️ Karışımınızı sağlam bir kapta veya poşetlerde saklayarak taşıma kolaylığı sağlayın"
+        },
+        "section5": {
+            "title": "Malzemeler Nereden Temin Edilir?",
+            "intro": "Başlamak için yalnızca birkaç şeye ihtiyacınız var:",
+            "scale": "• ⚖️ Güvenilir bir mutfak terazisi",
+            "sodiumSource": "• 🧂 Bir sodyum kaynağı (örneğin, sofra tuzu, deniz tuzu)",
+            "potassiumSource": "• 🍌 Bir potasyum kaynağı",
+            "magnesiumSource": "• 🥬 Bir magnezyum kaynağı",
+            "containers": "• 🗃️ Saklama kapları veya kavanozlar",
+            "flavorings": "• 🌱 İsteğe bağlı tatlandırıcılar (örneğin, şekersiz damlalar)",
+            "desc": "Bunları çoğu markette veya çevrimiçi mağazada bulabilirsiniz, bu da saflık ve maliyet üzerinde tam kontrol sağlar.",
+            "outro": "Hepsi bu! Biraz bilgi ve birkaç basit malzeme ile antrenmanlar, yoğun iş günleri ve oruç dönemleri için mükemmel dengeli bir elektrolit karışımı oluşturabilirsiniz.",
+        }
+    },
+    "addIngredient": {
+        "addNewIngredient": "Yeni bileşen ekle",
+        "addNewIngredientTitle": "Yeni bileşen ekle",
+        "ingredientNameLabel": "Bileşen Adı",
+        "ingredientNamePlaceholder": "Bileşen adını girin",
+        "percentageLabel": "Yüzde (%)",
+        "percentagePlaceholder": "Yüzdeyi girin (0 ile 100 arası)",
+        "cancel": "İptal",
+        "save": "Bileşeni Kaydet"
+    }
+};

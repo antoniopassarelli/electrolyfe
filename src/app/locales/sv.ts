@@ -1,0 +1,151 @@
+export default {
+    "calculatorTitle": "Miniräknare",
+    "goToSettings": "Inställningar",
+    "settings": "Inställningar",
+    "totalWeightLabel": "Totalvikt",
+    "numberOfServingsLabel": "Antal portioner",
+    "enterServingsLabel": "Ange portioner",
+    "enterTotalWeight": "Ange totalvikt",
+    "enterTotalAmount": "Ange totalbelopp",
+    "save": "Spara",
+    "saveAndReturn": "Spara och återgå",
+    "resetToDefaults": "Återställ till standard",
+    "enterNumberOfServings": "Ange antalet portioner",
+    "back": "Tillbaka",
+    "adjustElectrolyteBaseValues": "Justera elektrolytens basvärden",
+    "settingsPage": {
+        "desc1": "🔬 Dessa standardförhållanden är baserade på vetenskaplig forskning för att möta allmänna behov av vätskeersättning och elektrolyter.",
+        "desc2": "👩‍🔬 Justera dessa värden för att passa dina preferenser eller specifika krav.",
+        "desc3": "⚠️ För optimal balans rekommenderar vi att du håller dig till standardinställningarna.",
+        "depletionIndexLabel": "Uttömningsindex",
+    },
+    "ingredients": {
+        "tableSalt": "Bordssalt",
+        "seaSalt": "Havssalt",
+        "himalayanSalt": "Himalayasalt",
+        "pinkSalt": "Rosa salt",
+        "potassiumChloride": "Kaliumklorid",
+        "potassiumBicarbonate": "Kaliumbikarbonat",
+        "potassiumCitrate": "Kaliumcitrat",
+        "magnesiumOxide": "Magnesiumoxid",
+        "magnesiumCitrate": "Magnesiumcitrat",
+        "magnesiumBisglycinate": "Magnesiumbisglycinat",
+        "magnesiumMalate": "Magnesiummalat",
+    },
+    "elements": {
+        "sodium": "Natrium",
+        "potassium": "Kalium",
+        "magnesium": "Magnesium"
+    },
+    "intro": {
+        "startHereMessage": "Ny till elektrolyttillskott?",
+        "startButtonText": "Börja här",
+        "title": "Introduktion",
+        "section1": {
+            "title": "Vad är elektrolyter?",
+            "desc1": "Elektrolyter är mineraler i din kropp som bär en elektrisk laddning 🔋 när de löses upp i vatten 💧.",
+            "desc2": "De viktigaste kemiska elementen – natrium, kalium, magnesium och kalcium – hjälper till att stödja:",
+            "fluidBalance": "• 💧 Vätskebalans",
+            "muscleContractions": "• 💪 Muskelkontraktioner",
+            "nerveImpulses": "• ⚡ Nervimpulser",
+            "brainFunction": "• 🧠 Hjärnfunktion",
+            "boneHealth": "• 🦴 Bendensitet",
+            "desc3": "Kalcium är också viktigt, men det är vanligtvis lättare att få i sig genom daglig kost.",
+            "desc4": "Denna app fokuserar på natrium, kalium och magnesium eftersom de ofta förloras genom svett och är avgörande för de flesta människors dagliga behov."
+        },
+        "section2": {
+            "title": "Varför komplettera med elektrolyter?",
+            "desc1": "Du kanske vill komplettera med elektrolyter om du:",
+            "intenseExercise": "• 🏀 Utövar intensiv träning eller sport",
+            "hotEnvironments": "• ⛏️ Arbetar i heta eller fysiskt krävande miljöer",
+            "fastingOrKeto": "• 🧘 Följer fasta eller lågkolhydrat-/ketodieter",
+            "deficiencySigns": "• 🆘 Upplever muskelkramper, trötthet eller andra bristsymptom",
+            "desc2": "Genom att säkerställa en balanserad intag av natrium, kalium och magnesium kan du bibehålla bättre hydrering, stödja hälsosamma energinivåer och minska kramper eller huvudvärk.",
+            "depletionIndex": {
+                "title": "Vad är uttömningsindexet?",
+                "intro": "ElectroLyfe anpassar din elektrolytbalans med hjälp av ett uttömningsindex – en personlig ”elektrolyt-stressmätare” på en skala från 0 till 100.",
+                "desc": "Detta är ett värde som visar hur mycket natrium, kalium och magnesium din kropp förlorar baserat på din dagliga belastning.",
+                "0": "0 – minimal belastning",
+                "at0": "Om du har ett stillasittande jobb, äter en balanserad kost med grönsaker och måttlig mängd salt, svettas lite och inte utsätts för fasta eller intensiv träning, förlorar din kropp väldigt lite elektrolyter. I sådana fall räcker det med standardintag (~2000 mg natrium, 3500 mg kalium och 350 mg magnesium enligt WHO:s rekommendationer).",
+                "100": "100 – hög belastning",
+                "at100": "Om du svettas mycket på grund av värme eller fysisk ansträngning, fastar i flera dagar, följer en lågkolhydratdiet eller upplever stress och dålig sömn, kan din kropp snabbt förlora elektrolyter. Du kan då behöva upp till 5500 mg natrium och minska kaliumintaget till cirka 1000 mg för att behålla balansen och undvika obehag.",
+            },
+        },
+        "section3": {
+            "title": "Hur man använder ElectroLyfe",
+            "intro": "ElectroLyfe hjälper dig att skapa en personlig blandning av elektrolyter så att du effektivt kan bibehålla hydrering och stödja muskler, hjärna, ben och nervfunktion.",
+            "stepsTitle": "Här är en steg-för-steg-guide:",
+            "step1": {
+                "title": "Steg 1: Välj din måltyp",
+                "option1": "• 🍦 Antal portioner",
+                "option2": "• ⚖️ Totalvikt",
+                "desc": "Bestäm om du behöver producera ett visst antal portioner eller nå en totalvikt för blandningen."
+            },
+            "step2": {
+                "title": "Steg 2: Välj dina ingredienser",
+                "intro": "Standardförslag:",
+                "sodium": "• 🧂 Rosa salt (natrium)",
+                "potassium": "• 🍌 Kaliumklorid",
+                "magnesium": "• 🥬 Magnesiumbisglycinat",
+                "desc": "Du kan välja eller lägga till alternativ vid behov (t.ex. havssalt, magnesiumcitrat, etc.)."
+            },
+            "step3": {
+                "title": "Steg 3: Ställ in ditt uttömningsindex",
+                "desc": "Använd skjutreglaget för att välja ett värde mellan 0 och 100 baserat på din nuvarande livsstil och belastning.",
+            },
+            "step4": {
+                "title": "Steg 4: Skapa ditt recept",
+                "desc": "Appen beräknar hur mycket du behöver av varje ingrediens för att skapa en balanserad elektrolytblandning.",
+            },
+            "step5": {
+                "title": "Steg 5: Mät och blanda",
+                "step1": "• ⚖️ Väg varje ingrediens noggrant med en precisionsvåg.",
+                "step2": "• 🫙 Kombinera dem i en ren och torr behållare.",
+                "step3": "• 🗄️ Förvara blandningen på en sval och mörk plats.",
+            },
+            "step6": {
+                "title": "Steg 6: Dags att återfukta",
+                "step1": "• 🥄 Ta en portion (~3 g, eller justera efter smak)",
+                "step2": "• 💧 Blanda i ~½–1 liter vatten (använd mer vatten för mildare smak)",
+                "step3": "• 🍊 Tillsätt smaksättning (valfritt)",
+                "step4": "• 🧃 Rör om eller skaka",
+                "step5": "• 😎 Drick långsamt under dagen",
+                "note": {
+                    "part1": "Observera: 3 g är endast ett startvärde.",
+                    "part2": "Om du vill ha en något saltare eller mildare smak, justera mängden i flaskan.",
+                    "part3": "Friska kroppar reglerar elektrolytnivåerna effektivt, så små variationer i en enskild portion är oftast okej – särskilt om natrium, kalium och magnesium är i balans.",
+                    "part4": "Lyssna på din kropp, håll dig återfuktad och rådgör med sjukvårdspersonal vid särskilda bekymmer eller medicinska tillstånd."
+                },
+            },
+        },
+        "section4": {
+            "title": "När och var ska man använda det",
+            "morning": "⏰ På morgonen för att återställa förluster över natten",
+            "midMorning": "🥨 Sen morgon som ett mellanmål eller kring träning för att ersätta svettförluster",
+            "hotEnvironments": "⛏️ Utomhusarbetare (t.ex. takläggare, trädgårdsmästare) kan dra nytta av regelbunden intag i varmt väder",
+            "storage": "🗄️ Förvara blandningen i en robust behållare eller påsar för bekvämlighet på språng"
+        },
+        "section5": {
+            "title": "Var man kan köpa ingredienser",
+            "intro": "Du behöver bara några få saker för att komma igång:",
+            "scale": "• ⚖️ En pålitlig köksvåg",
+            "sodiumSource": "• 🧂 En natriumkälla (t.ex. bordssalt, havssalt)",
+            "potassiumSource": "• 🍌 En kaliumkälla",
+            "magnesiumSource": "• 🥬 En magnesiumberikning",
+            "containers": "• 🗃️ Behållare eller burkar för förvaring",
+            "flavorings": "• 🌱 Valfri smaksättning (t.ex. sockerfria droppar)",
+            "desc": "Du kan hitta dessa i de flesta livsmedelsbutiker eller onlinebutiker, vilket ger dig full kontroll över renhet och kostnad.",
+            "outro": "Det är allt! Med lite kunskap och några enkla ingredienser kan du skapa din egen perfekt balanserade elektrolytblandning för träningar, hektiska arbetsdagar och fasta perioder.",
+        }
+    },
+    "addIngredient": {
+        "addNewIngredient": "Lägg till ny ingrediens",
+        "addNewIngredientTitle": "Lägg till ny ingrediens",
+        "ingredientNameLabel": "Ingrediensnamn",
+        "ingredientNamePlaceholder": "Skriv in ingrediensnamn",
+        "percentageLabel": "Procent (%)",
+        "percentagePlaceholder": "Skriv in procent (0 till 100)",
+        "cancel": "Avbryt",
+        "save": "Spara ingrediens"
+    }
+};

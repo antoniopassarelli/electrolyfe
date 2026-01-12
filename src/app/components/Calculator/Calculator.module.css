@@ -1,0 +1,18 @@
+.container {
+    flex-shrink: 1;
+    background-color: var(--blue-secondary);
+    border-radius: 13px;
+    padding-bottom: 3%;
+    margin: 2%;
+}
+
+.scrollableContent {
+    display: flow-root;
+}
+
+.topSection {
+    margin-bottom: 5%;
+}
+
+.bottomSection {
+}

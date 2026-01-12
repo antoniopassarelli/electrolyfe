@@ -1,0 +1,151 @@
+export default {
+    "calculatorTitle": "计算器",
+    "goToSettings": "设置",
+    "settings": "设置",
+    "totalWeightLabel": "总重量",
+    "numberOfServingsLabel": "份数",
+    "enterServingsLabel": "输入份数",
+    "enterTotalWeight": "输入总重量",
+    "enterTotalAmount": "输入总量",
+    "save": "保存",
+    "saveAndReturn": "保存并返回",
+    "resetToDefaults": "重置为默认值",
+    "enterNumberOfServings": "输入份数",
+    "back": "返回",
+    "adjustElectrolyteBaseValues": "调整电解质基础值",
+    "settingsPage": {
+        "desc1": "🔬 这些默认比例基于科学研究，以满足一般的水分补充和电解质需求。",
+        "desc2": "👩‍🔬 根据您的喜好或具体需求调整这些值。",
+        "desc3": "⚠️ 为实现最佳平衡，我们建议坚持使用默认设置。",
+        "depletionIndexLabel": "消耗指数",
+    },
+    "ingredients": {
+        "tableSalt": "食用盐",
+        "seaSalt": "海盐",
+        "himalayanSalt": "喜马拉雅盐",
+        "pinkSalt": "粉盐",
+        "potassiumChloride": "氯化钾",
+        "potassiumBicarbonate": "碳酸氢钾",
+        "potassiumCitrate": "柠檬酸钾",
+        "magnesiumOxide": "氧化镁",
+        "magnesiumCitrate": "柠檬酸镁",
+        "magnesiumBisglycinate": "甘氨酸镁",
+        "magnesiumMalate": "苹果酸镁",
+    },
+    "elements": {
+        "sodium": "钠",
+        "potassium": "钾",
+        "magnesium": "镁"
+    },
+    "intro": {
+        "startHereMessage": "电解质补充新手？",
+        "startButtonText": "从这里开始",
+        "title": "简介",
+        "section1": {
+            "title": "什么是电解质？",
+            "desc1": "电解质是你体内的一种矿物质，它们溶解在水中时会携带电荷 🔋。",
+            "desc2": "主要的化学元素——钠、钾、镁和钙——帮助支持以下功能：",
+            "fluidBalance": "• 💧 体液平衡",
+            "muscleContractions": "• 💪 肌肉收缩",
+            "nerveImpulses": "• ⚡ 神经脉冲",
+            "brainFunction": "• 🧠 大脑功能",
+            "boneHealth": "• 🦴 骨骼健康",
+            "desc3": "钙也很重要；不过通常可以通过日常饮食轻松获取。",
+            "desc4": "本应用主要关注钠、钾和镁，因为它们通常通过汗液流失，并且对于大多数人的日常需求至关重要。"
+        },
+        "section2": {
+            "title": "为什么需要补充电解质？",
+            "desc1": "如果你符合以下情况，可以补充电解质：",
+            "intenseExercise": "• 🏀 参与高强度运动或体育活动",
+            "hotEnvironments": "• ⛏️ 在炎热或体力要求高的环境中工作",
+            "fastingOrKeto": "• 🧘 遵循禁食或低碳/生酮饮食",
+            "deficiencySigns": "• 🆘 出现肌肉痉挛、疲劳或其他缺乏症状",
+            "desc2": "确保钠、钾和镁的平衡摄入，可以更好地保持水分、支持健康的能量水平，并减少痉挛或头痛。",
+            "depletionIndex": {
+                "title": "什么是消耗指数？",
+                "intro": "ElectroLyfe 通过消耗指数来个性化您的电解质平衡 —— 这是一个从 0 到 100 的“电解质压力指标”。",
+                "desc": "该指数表示您的身体在日常生活中因出汗、饮食、压力或活动水平而流失多少钠、钾和镁。",
+                "0": "0 —— 最低负荷",
+                "at0": "如果您从事久坐工作，饮食中包含蔬菜和适量食盐，出汗不多，也没有禁食或剧烈运动，那么身体流失的电解质极少。此时仅需基础补充（如世界卫生组织建议：每日约 2000 毫克钠、3500 毫克钾、350 毫克镁）。",
+                "100": "100 —— 高强度需求",
+                "at100": "如果您因高温或高强度运动而大量出汗、连续禁食几天、进行低碳饮食，或者遭受压力和睡眠不足，身体会迅速流失电解质。此时，您可能需要将钠摄入量提高至 5500 毫克，同时将钾降低至约 1000 毫克，以维持平衡并避免不适。",
+            },
+        },
+        "section3": {
+            "title": "如何使用 ElectroLyfe",
+            "intro": "ElectroLyfe 帮助您定制个性化的电解质混合物，让您有效地保持水分，支持肌肉、大脑、骨骼和神经功能。",
+            "stepsTitle": "以下是分步指南：",
+            "step1": {
+                "title": "步骤 1：选择目标类型",
+                "option1": "• 🍦 份数",
+                "option2": "• ⚖️ 总重量",
+                "desc": "决定您是需要制作一定数量的份量，还是达到目标混合重量。"
+            },
+            "step2": {
+                "title": "步骤 2：选择成分",
+                "intro": "推荐选项：",
+                "sodium": "• 🧂 粉盐（钠）",
+                "potassium": "• 🍌 氯化钾",
+                "magnesium": "• 🥬 镁双甘氨酸盐",
+                "desc": "如果需要，您可以选择或添加替代品（例如，海盐、柠檬酸镁等）。"
+            },
+            "step3": {
+                "title": "步骤 3：设置您的消耗指数",
+                "desc": "根据您的生活方式和当前负荷，使用滑块选择一个 0 到 100 之间的数值。",
+            },
+            "step4": {
+                "title": "步骤 4：生成配方",
+                "desc": "应用程序会计算出每种成分的使用量，以帮助您获得均衡的电解质混合比例。",
+            },
+            "step5": {
+                "title": "步骤 5：称量并混合",
+                "step1": "• ⚖️ 使用精确的厨房秤称量每种成分。",
+                "step2": "• 🫙 将所有成分倒入干净干燥的容器中混合。",
+                "step3": "• 🗄️ 将混合物存放在阴凉、避光处。",
+            },
+            "step6": {
+                "title": "步骤 6：开始补水",
+                "step1": "• 🥄 取一份混合物（约 3 克，或根据口味调整）",
+                "step2": "• 💧 将其混入约 ½–1 升的水中（如果您偏好口味更淡，可加更多水）",
+                "step3": "• 🍊 可选添加调味剂",
+                "step4": "• 🧃 搅拌或摇匀",
+                "step5": "• 😎 一整天慢慢饮用",
+                "note": {
+                    "part1": "注意：3 克只是一个起始建议值。",
+                    "part2": "如果您喜欢稍咸或更清淡的口味，可根据需要调整瓶中份量。",
+                    "part3": "健康的身体通常能很好地调节电解质水平，因此少量增减一般不会有问题 —— 尤其是在钠、钾、镁均衡的情况下。",
+                    "part4": "请留意身体信号，保持水分摄入，并在有健康疑虑时咨询专业医生。"
+                },
+            },
+        },
+        "section4": {
+            "title": "何时及何地使用？",
+            "morning": "⏰ 早晨起床后，用于补充一夜之间的流失",
+            "midMorning": "🥨 上午作为小吃的替代品，或运动前后用于补充汗液流失",
+            "hotEnvironments": "⛏️ 在户外工作（如屋顶工人、园艺工人）的人，可以在炎热天气下定期补充",
+            "storage": "🗄️ 将混合物存放在坚固的容器或袋子中，以方便携带"
+        },
+        "section5": {
+            "title": "成分来源",
+            "intro": "开始只需几件物品：",
+            "scale": "• ⚖️ 一个可靠的厨房秤",
+            "sodiumSource": "• 🧂 钠来源（如食盐、海盐）",
+            "potassiumSource": "• 🍌 钾来源",
+            "magnesiumSource": "• 🥬 镁来源",
+            "containers": "• 🗃️ 用于存储的容器或罐子",
+            "flavorings": "• 🌱 可选调味剂（如无糖香精）",
+            "desc": "您可以在大多数杂货店或网上商店找到这些，这让您可以完全控制纯度和成本。",
+            "outro": "就是这样！通过一些知识和简单的成分，您可以为运动、忙碌的工作日或禁食期创造出完美平衡的电解质混合物。",
+        }
+    },
+    "addIngredient": {
+        "addNewIngredient": "添加新成分",
+        "addNewIngredientTitle": "添加新成分",
+        "ingredientNameLabel": "成分名称",
+        "ingredientNamePlaceholder": "请输入成分名称",
+        "percentageLabel": "百分比 (%)",
+        "percentagePlaceholder": "请输入百分比（0到100）",
+        "cancel": "取消",
+        "save": "保存成分"
+    }
+};

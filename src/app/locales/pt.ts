@@ -1,0 +1,151 @@
+export default {
+    "calculatorTitle": "Calculadora",
+    "goToSettings": "Configurações",
+    "settings": "Configurações",
+    "totalWeightLabel": "Peso total",
+    "numberOfServingsLabel": "Número de porções",
+    "enterServingsLabel": "Insira as porções",
+    "enterTotalWeight": "Insira o peso total",
+    "enterTotalAmount": "Insira o valor total",
+    "save": "Salvar",
+    "saveAndReturn": "Salvar e retornar",
+    "resetToDefaults": "Redefinir para os padrões",
+    "enterNumberOfServings": "Insira o número de porções",
+    "back": "Voltar",
+    "adjustElectrolyteBaseValues": "Ajustar valores básicos de eletrólitos",
+    "settingsPage": {
+        "desc1": "🔬 Essas proporções padrão são baseadas em pesquisas científicas para atender às necessidades gerais de hidratação e eletrólitos.",
+        "desc2": "👩‍🔬 Ajuste esses valores de acordo com suas preferências ou requisitos específicos.",
+        "desc3": "⚠️ Para um equilíbrio ideal, recomendamos que mantenha as configurações padrão.",
+        "depletionIndexLabel": "Kimerülési index",
+    },
+    "ingredients": {
+        "tableSalt": "Sal de cozinha",
+        "seaSalt": "Sal marinho",
+        "himalayanSalt": "Sal do Himalaia",
+        "pinkSalt": "Sal rosa",
+        "potassiumChloride": "Cloreto de potássio",
+        "potassiumBicarbonate": "Bicarbonato de potássio",
+        "potassiumCitrate": "Citrato de potássio",
+        "magnesiumOxide": "Óxido de magnésio",
+        "magnesiumCitrate": "Citrato de magnésio",
+        "magnesiumBisglycinate": "Bisglicinato de magnésio",
+        "magnesiumMalate": "Malato de magnésio",
+    },
+    "elements": {
+        "sodium": "Sódio",
+        "potassium": "Potássio",
+        "magnesium": "Magnésio"
+    },
+    "intro": {
+        "startHereMessage": "Novo na suplementação de eletrólitos?",
+        "startButtonText": "Comece aqui",
+        "title": "Introdução",
+        "section1": {
+            "title": "O que são eletrólitos?",
+            "desc1": "Eletrólitos são minerais no seu corpo que carregam uma carga elétrica 🔋 quando dissolvidos em água 💧.",
+            "desc2": "Os principais elementos químicos – sódio, potássio, magnésio e cálcio – ajudam a suportar:",
+            "fluidBalance": "• 💧 Equilíbrio de fluidos",
+            "muscleContractions": "• 💪 Contrações musculares",
+            "nerveImpulses": "• ⚡ Impulsos nervosos",
+            "brainFunction": "• 🧠 Função cerebral",
+            "boneHealth": "• 🦴 Saúde óssea",
+            "desc3": "O cálcio também é importante; no entanto, geralmente é mais fácil obtê-lo através de alimentos do dia a dia.",
+            "desc4": "Este aplicativo se concentra em sódio, potássio e magnésio porque são frequentemente perdidos com o suor e são cruciais para as necessidades diárias da maioria das pessoas."
+        },
+        "section2": {
+            "title": "Por que suplementar eletrólitos?",
+            "desc1": "Você pode precisar suplementar eletrólitos se:",
+            "intenseExercise": "• 🏀 Pratica exercícios intensos ou esportes",
+            "hotEnvironments": "• ⛏️ Trabalha em ambientes quentes ou fisicamente exigentes",
+            "fastingOrKeto": "• 🧘 Segue dietas de jejum ou low-carb/keto",
+            "deficiencySigns": "• 🆘 Experimenta cãibras musculares, fadiga ou outros sinais de deficiência",
+            "desc2": "Garantindo uma ingestão equilibrada de sódio, potássio e magnésio, você pode melhorar a hidratação, manter níveis saudáveis de energia e reduzir cãibras ou dores de cabeça.",
+            "depletionIndex": {
+                "title": "O que é o Índice de Desgaste?",
+                "intro": "O ElectroLyfe ajusta seu equilíbrio eletrolítico com base no Índice de Desgaste – um “medidor de estresse eletrolítico” pessoal numa escala de 0 a 100.",
+                "desc": "É uma pontuação que reflete quanto sódio, potássio e magnésio seu corpo está perdendo com base nas demandas do seu dia a dia.",
+                "0": "0 – desgaste mínimo",
+                "at0": "Se você tem um trabalho sedentário, segue uma dieta equilibrada com vegetais e sal moderado, transpira pouco e não passa por grandes estresses como jejum ou exercícios intensos, seu corpo perde poucos eletrólitos. Nesse caso, você só precisa das quantidades padrão (por exemplo: ~2.000 mg de sódio, 3.500 mg de potássio e 350 mg de magnésio por dia, segundo recomendações da OMS).",
+                "100": "100 – alta demanda",
+                "at100": "Se você sua muito devido ao calor ou esforço físico intenso, está jejuando há dias, segue uma dieta low-carb, ou enfrenta estresse e privação de sono, seu corpo perde eletrólitos rapidamente. Nessa situação, você pode precisar de até 5.500 mg de sódio e reduzir o potássio para cerca de 1.000 mg para manter o equilíbrio e evitar desconfortos.",
+            },
+        },
+        "section3": {
+            "title": "Como usar o ElectroLyfe",
+            "intro": "ElectroLyfe ajuda você a criar uma mistura personalizada de eletrólitos para se manter hidratado de forma eficiente e apoiar as funções musculares, cerebrais, ósseas e nervosas.",
+            "stepsTitle": "Aqui está um guia passo a passo:",
+            "step1": {
+                "title": "Passo 1: Escolha o seu objetivo",
+                "option1": "• 🍦 Número de porções",
+                "option2": "• ⚖️ Peso total",
+                "desc": "Decida se precisa produzir um determinado número de porções ou atingir um peso total da mistura."
+            },
+            "step2": {
+                "title": "Passo 2: Escolha os ingredientes",
+                "intro": "Sugestões padrão:",
+                "sodium": "• 🧂 Sal rosa (sódio)",
+                "potassium": "• 🍌 Cloreto de potássio",
+                "magnesium": "• 🥬 Magnésio Bisglicinato",
+                "desc": "Você pode escolher ou adicionar alternativas conforme necessário (por exemplo, sal marinho, citrato de magnésio, etc.)."
+            },
+            "step3": {
+                "title": "Passo 3: Defina seu Índice de Desgaste",
+                "desc": "Use o controle deslizante para escolher um valor de 0 a 100 com base no seu estilo de vida e nível de esforço atual.",
+            },
+            "step4": {
+                "title": "Passo 4: Gere sua receita",
+                "desc": "O aplicativo calcula quanto de cada ingrediente você precisa para obter uma mistura equilibrada de eletrólitos.",
+            },
+            "step5": {
+                "title": "Passo 5: Meça e combine",
+                "step1": "• ⚖️ Pese cada ingrediente com uma balança precisa.",
+                "step2": "• 🫙 Misture tudo em um recipiente limpo e seco.",
+                "step3": "• 🗄️ Armazene a mistura em um local fresco e escuro.",
+            },
+            "step6": {
+                "title": "Passo 6: Hora de hidratar-se",
+                "step1": "• 🥄 Pegue uma porção (~3 g, ou ajuste conforme o gosto)",
+                "step2": "• 💧 Misture com ~½–1 litro de água (mais água se preferir um sabor mais suave)",
+                "step3": "• 🍊 Adicione aromatizante (opcional)",
+                "step4": "• 🧃 Mexa ou agite",
+                "step5": "• 😎 Beba aos poucos ao longo do dia",
+                "note": {
+                    "part1": "Nota: 3 g é apenas um valor inicial de referência.",
+                    "part2": "Se preferir um sabor mais salgado ou mais suave, ajuste a quantidade na sua garrafa.",
+                    "part3": "Corpos saudáveis regulam bem os níveis de eletrólitos, então pequenas variações por porção geralmente não são um problema – especialmente se sódio, potássio e magnésio estiverem equilibrados.",
+                    "part4": "Ouça os sinais do seu corpo, mantenha-se hidratado e consulte um profissional de saúde caso tenha preocupações específicas ou condições médicas."
+                },
+            },
+        },
+        "section4": {
+            "title": "Quando e onde usar",
+            "morning": "⏰ Logo pela manhã para repor perdas noturnas",
+            "midMorning": "🥨 No meio da manhã como substituto de lanche ou durante treinos para repor perdas de suor",
+            "hotEnvironments": "⛏️ Trabalhadores ao ar livre (telhadistas, jardineiros, etc.) podem se beneficiar da ingestão regular em climas quentes",
+            "storage": "🗄️ Armazene sua mistura em um recipiente resistente ou saquinhos para conveniência em movimento"
+        },
+        "section5": {
+            "title": "Onde obter os ingredientes",
+            "intro": "Você precisa de apenas alguns itens para começar:",
+            "scale": "• ⚖️ Uma balança de cozinha confiável",
+            "sodiumSource": "• 🧂 Uma fonte de sódio (ex.: sal de cozinha, sal marinho)",
+            "potassiumSource": "• 🍌 Uma fonte de potássio",
+            "magnesiumSource": "• 🥬 Uma fonte de magnésio",
+            "containers": "• 🗃️ Recipientes ou frascos para armazenamento",
+            "flavorings": "• 🌱 Aromatizantes opcionais (ex.: gotas sem açúcar)",
+            "desc": "Você pode encontrar esses itens na maioria dos supermercados ou lojas online, dando-lhe total controle sobre pureza e custo.",
+            "outro": "É isso! Com um pouco de conhecimento e alguns ingredientes simples, você pode criar sua própria mistura de eletrólitos perfeitamente equilibrada para treinos, dias agitados, períodos de jejum e muito mais.",
+        }
+    },
+    "addIngredient": {
+        "addNewIngredient": "Adicionar novo ingrediente",
+        "addNewIngredientTitle": "Adicionar novo ingrediente",
+        "ingredientNameLabel": "Nome do ingrediente",
+        "ingredientNamePlaceholder": "Digite o nome do ingrediente",
+        "percentageLabel": "Porcentagem (%)",
+        "percentagePlaceholder": "Digite a porcentagem (de 0 a 100)",
+        "cancel": "Cancelar",
+        "save": "Salvar ingrediente"
+    }
+};

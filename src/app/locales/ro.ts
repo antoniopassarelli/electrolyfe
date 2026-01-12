@@ -1,0 +1,151 @@
+export default {
+    "calculatorTitle": "Calculator",
+    "goToSettings": "Setări",
+    "settings": "Setări",
+    "totalWeightLabel": "Greutate totală",
+    "numberOfServingsLabel": "Numărul de porții",
+    "enterServingsLabel": "Introduceți porții",
+    "enterTotalWeight": "Introduceți greutatea totală",
+    "enterTotalAmount": "Introduceți suma totală",
+    "save": "Salvează",
+    "saveAndReturn": "Salvați și reveniți",
+    "resetToDefaults": "Resetați la setările implicite",
+    "enterNumberOfServings": "Introduceți numărul de porții",
+    "back": "Înapoi",
+    "adjustElectrolyteBaseValues": "Ajustați valorile de bază ale electroliților",
+    "settingsPage": {
+        "desc1": "🔬 Aceste rapoarte implicite se bazează pe cercetări științifice pentru a răspunde nevoilor generale de hidratare și electroliți.",
+        "desc2": "👩‍🔬 Ajustați aceste valori în funcție de preferințele sau cerințele dumneavoastră specifice.",
+        "desc3": "⚠️ Pentru un echilibru optim, vă recomandăm să respectați setările implicite.",
+        "depletionIndexLabel": "Indice de epuizare",
+    },
+    "ingredients": {
+        "tableSalt": "Sare de masă",
+        "seaSalt": "Sare de mare",
+        "himalayanSalt": "Sare de Himalaya",
+        "pinkSalt": "Sare roz",
+        "potassiumChloride": "Clorură de potasiu",
+        "potassiumBicarbonate": "Bicarbonat de potasiu",
+        "potassiumCitrate": "Citrat de potasiu",
+        "magnesiumOxide": "Oxid de magneziu",
+        "magnesiumCitrate": "Citrat de magneziu",
+        "magnesiumBisglycinate": "Bisglicinat de magneziu",
+        "magnesiumMalate": "Malat de magneziu",
+    },
+    "elements": {
+        "sodium": "Sodiu",
+        "potassium": "Potasiu",
+        "magnesium": "Magneziu"
+    },
+    "intro": {
+        "startHereMessage": "Nou în suplimentele de electroliți?",
+        "startButtonText": "Începe aici",
+        "title": "Introducere",
+        "section1": {
+            "title": "Ce sunt electroliții?",
+            "desc1": "Electroliții sunt minerale din corpul tău care poartă o sarcină electrică 🔋 odată ce sunt dizolvați în apă 💧.",
+            "desc2": "Principalele elemente chimice – sodiu, potasiu, magneziu și calciu – ajută la susținerea:",
+            "fluidBalance": "• 💧 Echilibrul fluidelor",
+            "muscleContractions": "• 💪 Contracțiilor musculare",
+            "nerveImpulses": "• ⚡ Impulsurilor nervoase",
+            "brainFunction": "• 🧠 Funcției cerebrale",
+            "boneHealth": "• 🦴 Sănătății oaselor",
+            "desc3": "Calciul este de asemenea important; cu toate acestea, este de obicei mai ușor de obținut prin alimentele de zi cu zi.",
+            "desc4": "Această aplicație se concentrează pe sodiu, potasiu și magneziu, deoarece sunt pierduți frecvent prin transpirație și sunt esențiali pentru nevoile zilnice ale majorității oamenilor."
+        },
+        "section2": {
+            "title": "De ce să suplimentezi electroliții?",
+            "desc1": "Ai putea avea nevoie să suplimentezi electroliții dacă:",
+            "intenseExercise": "• 🏀 Practici exerciții intense sau sporturi",
+            "hotEnvironments": "• ⛏️ Lucrezi în medii calde sau fizic solicitante",
+            "fastingOrKeto": "• 🧘 Urmezi diete de post sau low-carb/keto",
+            "deficiencySigns": "• 🆘 Experimentezi crampe musculare, oboseală sau alte semne de deficiență",
+            "desc2": "Prin asigurarea unui aport echilibrat de sodiu, potasiu și magneziu, poți menține o hidratare mai bună, sprijini nivelurile sănătoase de energie și reduce crampele sau durerile de cap.",
+            "depletionIndex": {
+                "title": "Ce este indicele de epuizare?",
+                "intro": "ElectroLyfe îți ajustează echilibrul de electroliți folosind un indice de epuizare – un „indicator personal de stres electrolitic” pe o scară de la 0 la 100.",
+                "desc": "Este o valoare care reflectă cât sodiu, potasiu și magneziu pierde corpul tău în funcție de solicitarea zilnică.",
+                "0": "0 – solicitare minimă",
+                "at0": "Ai un loc de muncă sedentar, urmezi o dietă echilibrată cu legume și cantități moderate de sare, transpiri puțin și nu ții post sau exerciții intense. Corpul tău pierde puțini electroliți, așa că ai nevoie doar de cantitățile standard (ex.: ~2.000 mg sodiu, 3.500 mg potasiu, 350 mg magneziu pe zi, conform recomandărilor OMS).",
+                "100": "100 – solicitare ridicată",
+                "at100": "Dacă transpiri abundent din cauza căldurii sau a efortului fizic, ții post mai multe zile, urmezi o dietă low-carb, sau te confrunți cu stres și lipsă de somn, corpul tău pierde rapid electroliți. În acest caz, poți avea nevoie de până la 5.500 mg de sodiu și doar 1.000 mg de potasiu pentru a menține echilibrul și a evita disconfortul.",
+            },
+        },
+        "section3": {
+            "title": "Cum să folosești ElectroLyfe",
+            "intro": "ElectroLyfe te ajută să creezi un amestec personalizat de electroliți, astfel încât să rămâi hidratat eficient și să susții funcțiile musculare, cerebrale, osoase și nervoase.",
+            "stepsTitle": "Iată un ghid pas cu pas:",
+            "step1": {
+                "title": "Pasul 1: Alege-ți obiectivul",
+                "option1": "• 🍦 Numărul de porții",
+                "option2": "• ⚖️ Greutatea totală",
+                "desc": "Decide dacă ai nevoie să produci un anumit număr de porții sau să atingi o greutate totală a amestecului."
+            },
+            "step2": {
+                "title": "Pasul 2: Alege ingredientele",
+                "intro": "Sugestii implicite:",
+                "sodium": "• 🧂 Sare roz (sodiu)",
+                "potassium": "• 🍌 Clorură de potasiu",
+                "magnesium": "• 🥬 Magneziu Bisglicinat",
+                "desc": "Poți alege sau adăuga alternative după cum este necesar (de exemplu, sare de mare, citrat de magneziu, etc.)."
+            },
+            "step3": {
+                "title": "Pasul 3: Setează indicele de epuizare",
+                "desc": "Folosește glisorul pentru a alege o valoare între 0 și 100, în funcție de stilul tău de viață și nivelul de solicitare.",
+            },
+            "step4": {
+                "title": "Pasul 4: Generează-ți rețeta",
+                "desc": "Aplicația calculează cât din fiecare ingredient ai nevoie pentru un amestec echilibrat de electroliți.",
+            },
+            "step5": {
+                "title": "Pasul 5: Măsoară și combină",
+                "step1": "• ⚖️ Cântărește fiecare ingredient cu o balanță de precizie.",
+                "step2": "• 🫙 Combină-le într-un recipient curat și uscat.",
+                "step3": "• 🗄️ Depozitează amestecul într-un loc răcoros și întunecat.",
+            },
+            "step6": {
+                "title": "Pasul 6: E timpul pentru hidratare",
+                "step1": "• 🥄 Ia o porție (~3g, sau ajustează după gust)",
+                "step2": "• 💧 Amestecă în ~½–1 litru de apă (mai multă apă dacă preferi un gust mai diluat)",
+                "step3": "• 🍊 Adaugă arome (opțional)",
+                "step4": "• 🧃 Amestecă sau agită",
+                "step5": "• 😎 Savurează pe tot parcursul zilei",
+                "note": {
+                    "part1": "Notă: 3 g este doar o valoare de referință inițială.",
+                    "part2": "Dacă preferi un gust mai sărat sau mai slab, ajustează cantitatea din sticlă.",
+                    "part3": "Corpurile sănătoase reglează eficient nivelurile de electroliți, așa că ușoarele variații într-o porție sunt în general acceptabile – mai ales dacă sodiu, potasiu și magneziu sunt în echilibru.",
+                    "part4": "Ascultă-ți corpul, menține hidratarea și consultă un specialist dacă ai îngrijorări specifice sau afecțiuni medicale."
+                },
+            },
+        },
+        "section4": {
+            "title": "Când și unde să îl folosești",
+            "morning": "⏰ Dimineața, pentru a înlocui pierderile de peste noapte",
+            "midMorning": "🥨 În mijlocul dimineții, ca înlocuitor pentru gustări sau în timpul antrenamentelor pentru a înlocui pierderile de transpirație",
+            "hotEnvironments": "⛏️ Lucrătorii în aer liber (acoperișari, grădinari, etc.) pot beneficia de un aport regulat în condiții de vreme caldă",
+            "storage": "🗄️ Depozitează amestecul într-un recipient rezistent sau în pungi pentru comoditate la drum"
+        },
+        "section5": {
+            "title": "De unde să achiziționezi ingredientele",
+            "intro": "Ai nevoie doar de câteva articole pentru a începe:",
+            "scale": "• ⚖️ O balanță de bucătărie fiabilă",
+            "sodiumSource": "• 🧂 O sursă de sodiu (ex.: sare de masă, sare de mare)",
+            "potassiumSource": "• 🍌 O sursă de potasiu",
+            "magnesiumSource": "• 🥬 O sursă de magneziu",
+            "containers": "• 🗃️ Recipiente sau borcane pentru depozitare",
+            "flavorings": "• 🌱 Aromatizanți opționali (ex.: picături fără zahăr)",
+            "desc": "Poți găsi aceste articole în majoritatea magazinelor alimentare sau online, oferindu-ți control total asupra purității și costurilor.",
+            "outro": "Asta este tot! Cu puține cunoștințe și câteva ingrediente simple, poți crea propriul tău amestec de electroliți perfect echilibrat pentru antrenamente, zile aglomerate, perioade de post și multe altele.",
+        }
+    },
+    "addIngredient": {
+        "addNewIngredient": "Adaugă ingredient nou",
+        "addNewIngredientTitle": "Adaugă ingredient nou",
+        "ingredientNameLabel": "Numele ingredientului",
+        "ingredientNamePlaceholder": "Introduceți numele ingredientului",
+        "percentageLabel": "Procentaj (%)",
+        "percentagePlaceholder": "Introduceți procentajul (0-100)",
+        "cancel": "Anulare",
+        "save": "Salvează ingredientul"
+    }
+};

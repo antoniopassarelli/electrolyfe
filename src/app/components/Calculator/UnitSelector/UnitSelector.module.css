@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.chip {
+    padding: 2% 4%;
+    border-radius: 20px;
+    border: 1px solid var(--neutral-grey-light);
+    background-color: var(--neutral-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.activeChip {
+    background-color: var(--blue-bright-1);
+    border-color: var(--blue-bright-5);
+}
+
+.chipText {
+    color: var(--neutral-grey-darkest);
+    font-size: 14px;
+}
+
+.activeChipText {
+    color: var(--neutral-white);
+    font-weight: 600;
+}
