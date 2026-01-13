@@ -2,8 +2,11 @@
   "name": "electrolyfe",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://antoniopassarelli.github.io/electrolyfe/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "node ./node_modules/typescript/bin/tsc -b && node ./node_modules/vite/bin/vite.js build",
     "lint": "eslint .",
@@ -12,12 +15,12 @@
     "test:run": "vitest run"
   },
   "dependencies": {
+    "i18n-js": "^4.5.1",
+    "idb-keyval": "^6.2.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.11.0",
-    "idb-keyval": "^6.2.2",
-    "i18n-js": "^4.5.1",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -28,6 +31,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
