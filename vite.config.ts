@@ -3,20 +3,24 @@ import react from '@vitejs/plugin-react'
 import path from 'path';
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: process.env.BASE_URL || '/',
-  plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
+export default defineConfig(({ mode }) => {
+  const base = process.env.BASE_URL || (mode === 'production' ? '/electrolyfe/' : '/')
+
+  return {
+    base,
+    plugins: [react()],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, './src'),
+      },
     },
-  },
-  test: {
-    globals: true,
-    environment: 'node',
-    include: [
-      'src/**/*.{test,spec}.{js,ts,tsx}',
-      'src/**/__tests__/**/*.{js,ts,tsx}',
-    ],
-  },
+    test: {
+      globals: true,
+      environment: 'node',
+      include: [
+        'src/**/*.{test,spec}.{js,ts,tsx}',
+        'src/**/__tests__/**/*.{js,ts,tsx}',
+      ],
+    },
+  }
 })
