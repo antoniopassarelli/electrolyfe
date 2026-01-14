@@ -9,11 +9,13 @@ interface HeaderProps {
     leftImageUri?: string;
 }
 
+const defaultLeftImageUri = `${import.meta.env.BASE_URL}assets/images/header-icon.png`;
+
 export default function Header({
                                    title,
                                    rightComponent,
                                    showBackButton,
-                                   leftImageUri = '/assets/images/header-icon.png',
+                                   leftImageUri = defaultLeftImageUri,
                                }: HeaderProps) {
     const navigate = useNavigate();
     const screenType = getScreenType();
